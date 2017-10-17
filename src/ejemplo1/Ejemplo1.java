@@ -5,6 +5,8 @@
  */
 package ejemplo1;
 
+import javax.swing.JOptionPane;
+
 /**
  *
  * @author Labs-DECC
@@ -17,6 +19,7 @@ public class Ejemplo1 {
     public static void main(String[] args) {
         // TODO code application logic here
         System.out.println("hola mundo");
+        JOptionPane.showMessageDialog(null,"Hola");
     }
     
 }
